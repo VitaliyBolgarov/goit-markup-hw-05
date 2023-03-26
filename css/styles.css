@@ -681,6 +681,10 @@ img {
     overflow: hidden;
 }
 
+.product-thumb :is(:hover, :focus) {
+    transition: transform 250ms var(--timing-function);
+}
+
 .portfolio-overlay {
     position: absolute;
     top: 0;
