@@ -681,7 +681,7 @@ img {
     overflow: hidden;
 }
 
-.product-thumb :is(:hover, :focus) {
+.product-link :is(:hover, :focus) {
     transition: transform 250ms var(--timing-function);
 }
 
