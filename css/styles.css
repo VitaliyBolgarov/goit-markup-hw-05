@@ -676,12 +676,15 @@ img {
     flex-basis: calc((100% - 48px)/3);
 }
 
+.product-link {
+}
+
 .product-thumb {
     position: relative;
     overflow: hidden;
 }
 
-.product-link :is(:hover, :focus) {
+.product-link:hover .overlay-text:focus {
     transition: transform 250ms var(--timing-function);
 }
 
@@ -711,6 +714,15 @@ img {
     transition: transform 250ms var(--timing-function);
 }
 
+.product-link:hover .portfolio-overlay {
+    transform: translateY(0%);
+    transition: transform 250ms var(--timing-function);
+}
+
+.product-link:focus .portfolio-overlay {
+    transform: translateY(0%);
+    transition: transform 250ms var(--timing-function);
+}
 .overlay-text {
     font-size: 16px;
     line-height: 1.5;
