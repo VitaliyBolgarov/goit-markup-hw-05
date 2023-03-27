@@ -676,7 +676,7 @@ img {
     flex-basis: calc((100% - 48px)/3);
 }
 
-.product-link {
+.portfolio-link {
 }
 
 .product-thumb {
@@ -684,7 +684,7 @@ img {
     overflow: hidden;
 }
 
-.product-link:hover .overlay-text:focus {
+.portfolio-link:hover .overlay-text:focus {
     transition: transform 250ms var(--timing-function);
 }
 
@@ -714,12 +714,12 @@ img {
     transition: transform 250ms var(--timing-function);
 }
 
-.product-link:hover .portfolio-overlay {
+.portfolio-link:hover .portfolio-overlay {
     transform: translateY(0%);
     transition: transform 250ms var(--timing-function);
 }
 
-.product-link:focus .portfolio-overlay {
+.portfolio-link:focus .portfolio-overlay {
     transform: translateY(0%);
     transition: transform 250ms var(--timing-function);
 }
